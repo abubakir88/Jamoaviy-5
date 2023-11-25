@@ -1,0 +1,50 @@
+@use "layout" as *;
+@use "pages" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 85px;
+}
+
+.dark {
+  background-color: #333 !important;
+}
+
+.dark {
+  color: #fff !important;
+}
+
+.dark .item-link {
+  color: #fff !important;
+}
+
+.dark header {
+  background: #555;
+}
+
+.dark header nav .logo svg {
+  fill: #fff;
+}
+
+.dark footer {
+  background-color: #555;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}

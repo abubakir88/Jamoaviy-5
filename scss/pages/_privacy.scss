@@ -1,0 +1,39 @@
+.ibrohim-privacy-police {
+  h1 {
+    color: #1d3444;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -1.92px;
+    padding: 80px 0 24px;
+  }
+  p {
+    color: #5b5b5b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    padding-bottom: 48px;
+  }
+  .p1 {
+    padding-bottom: 24px;
+  }
+  .hh1 {
+    color: #0d1317;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.72px;
+    padding: 40px 0 24px;
+  }
+  @media only screen and (max-width: 450px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.ibrohim-contact {
+  position: relative;
+  top: 108px;
+  margin-left: 100px;
+}
+.first {
+  display: flex;
+  position: relative;
+}
+.third {
+  position: relative;
+  top: 20px;
+
+  left: 180px;
+}
+.fourth {
+  position: relative;
+
+  margin-left: 240px;
+  top: 20px;
+}
+.hh {
+  width: 501px;
+  color: #1d3444;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -1.44px;
+}
+.p {
+  color: #5b5b5b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.p1 {
+  color: #0d1317;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+  letter-spacing: -0.72px;
+}
+.inn {
+  position: relative;
+  left: -20px;
+}
+input {
+  padding-left: 40px;
+  padding-top: -84px !important;
+  margin-top: 32px;
+  resize: none;
+  width: 605px;
+  height: 54px;
+  flex-shrink: 0;
+  border: none;
+  border-style: none;
+  background: #f9f9ff;
+  outline: none;
+  border-radius: 27px;
+  background: rgba(210, 218, 237, 0.17);
+}
+input:hover {
+  background-color: #c0bcbc;
+  transition: 0.7s;
+  color: white;
+}
+.inp {
+  width: 605px;
+  height: 160px;
+  flex-shrink: 0;
+  padding-left: 40px;
+  padding-top: -84px !important;
+  margin-top: 32px;
+  resize: none;
+
+  border: none;
+  border-style: none;
+  background: #f9f9ff;
+  outline: none;
+  border-radius: 27px;
+  background: rgba(210, 218, 237, 0.17);
+}
+.obshi {
+  display: flex;
+}
+iframe {
+  position: relative;
+  left: 50px;
+  top: 35px;
+  border-radius: 20px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ibrohim-contact {
+    iframe {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .ifr {
+    width: 500px;
+  }
+  .third {
+    position: relative;
+    left: 105px;
+  }
+  .fourth {
+    position: relative;
+    left: -130px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .ifr {
+    position: relative;
+    top: 700px;
+    left: -470px;
+    width: 100%;
+  }
+  .third {
+    position: relative;
+    top: 730px;
+    left: -470px;
+  }
+  .fourth {
+    position: relative;
+    top: 730px;
+    left: -550px;
+  }
+  .ibrohim-contact {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ibrohim-contact {
+    position: relative;
+  }
+}
